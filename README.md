@@ -34,9 +34,9 @@ The IoT-Based Automatic Animal Door System automates pet or livestock door acces
 > _There is no backend. I am directly connecting the ESP32 serial communication to the Next app to transfer the commands._
 ```mermaid
 graph TD
-  User -->|UI Input| Frontend
-  Frontend -->|API Calls| ESP 32 Serial Connetion 
-  Hardware -->|Sensor Data| Nextjs APP
+  User -->|"UI Input"| Frontend
+  Frontend -->|"API Calls"| ESP32_Serial_Connection
+  Hardware -->|"Sensor Data"| Nextjs_APP
 ```
 
 ## 📸 Screenshots / Demo
@@ -45,8 +45,7 @@ graph TD
 |-----------|----------------|
 | ![image](https://github.com/user-attachments/assets/49390ba9-6693-43b9-8652-b0201ca1ccf0)
 ![image](https://github.com/user-attachments/assets/6c962833-93e8-4641-86ea-09d4af160009)
-![image](https://github.com/user-attachments/assets/1b5f2c29-d822-43b2-a13d-b33eccc31da9) | ![image](https://github.com/user-attachments/assets/ccf5d0fa-30cb-4092-9c3a-5de31020999a)
- |
+![image](https://github.com/user-attachments/assets/1b5f2c29-d822-43b2-a13d-b33eccc31da9) | ![image](https://github.com/user-attachments/assets/ccf5d0fa-30cb-4092-9c3a-5de31020999a)|
 
 
 ## 📱 Installation & Setup
